@@ -1,0 +1,194 @@
+* {
+	margin:0;
+}
+
+
+body { 
+
+	font-size: 16px;
+  font-family: Copperplate, Papyrus, fantasy;
+ 	
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size:2em;
+  text-align: center;}
+
+
+
+#header-nav {
+  padding: 10px;
+	background-color:#D2691E;
+	border-radius:0;
+	border:0;
+}
+
+
+.navbar-brand {
+  
+  padding:10px;
+}
+
+.navbar-brand h1 {
+  padding-top: 3px;
+  position:absolute;
+  top: 0;
+  color:#2b302c;
+  font-family: Georgia, serif;
+  text-transform:uppercase;
+  font-size:1.5em;
+  margin-top: : 0;
+  margin-bottom:0;
+
+}
+
+.navbar-brand a {
+	
+	font-size: 25px;
+	text-decoration: none;
+	text-align: left;
+	}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration:none;
+
+
+}
+
+
+.container {padding 0px 5px 0px 5px;
+            width: 100%;
+}
+
+
+}
+
+#nav-list {
+     margin: 0px;
+
+}
+
+#nav-list a {
+  position: relative;
+  display: block;
+  color: #2b302c;
+  padding: 15px 0px 10px 0px;
+  text-align: center;
+  
+}
+
+#nav-list a:hover {
+  
+  background: rgba(246,247,255,0.22)
+
+}
+
+
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #2b302c;
+}
+
+
+.h1-2 { 
+        color: #161314;
+        margin: 0px 0px 10px 0px;
+        padding-bottom: 10px;
+
+
+}
+
+ .section { 
+            padding: 0px 5px 0px 10px;
+
+
+ }
+
+ .section h3 {
+  font-family: Georgia, serif;
+ 	padding:15px;
+  font-size:36px;
+ 	text-align: center;
+  margin:0;
+ }
+
+ .section p {
+  padding: 10px;
+  background-color:#A3A4AC;
+ }
+
+ .Chicken {
+    background-color:#A3A4AC;        
+    color: #06070D;
+    }
+
+   .Beef {
+    background-color:#A3A4AC;
+    color: #06070D;  
+   }
+   .Sushi {
+    
+    background-color:#A3A4AC;
+    color: #06070D;   
+   }
+
+  p {
+
+     font-size: 1.5em;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+  .navbar-brand h1 { 
+   padding-top: 3px;
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .navbar-brand h1 { 
+   padding-top: 3px;
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .navbar-brand h1 { 
+    padding-top: 3px;
+    font-size: 15vw;
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 3px;
+    font-size: 15vw; 
+}
+
+ #collapsable-nav a {
+    padding-top: 3px;
+    font-size: 3px;
+  }
+
+ 
+}
+
+
+
